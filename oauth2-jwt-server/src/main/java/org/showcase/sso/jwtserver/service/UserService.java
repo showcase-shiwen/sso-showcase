@@ -1,6 +1,6 @@
-package org.showcase.sso.server.service;
+package org.showcase.sso.jwtserver.service;
 
-import org.showcase.sso.server.pojo.User;
+import org.showcase.sso.jwtserver.pojo.User;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.security.core.authority.AuthorityUtils;
 import org.springframework.security.core.userdetails.UserDetails;

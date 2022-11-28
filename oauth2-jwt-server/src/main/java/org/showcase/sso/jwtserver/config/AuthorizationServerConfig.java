@@ -1,7 +1,7 @@
-package org.showcase.sso.server.config;
+package org.showcase.sso.jwtserver.config;
 
 import org.showcase.sso.jwtserver.enhancer.JwtTokenEnhancer;
-import org.showcase.sso.server.service.UserService;
+import org.showcase.sso.jwtserver.service.UserService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.context.annotation.Configuration;

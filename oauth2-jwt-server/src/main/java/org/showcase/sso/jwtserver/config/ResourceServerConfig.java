@@ -1,4 +1,4 @@
-package org.showcase.sso.server.config;
+package org.showcase.sso.jwtserver.config;
 
 import org.springframework.context.annotation.Configuration;
 import org.springframework.security.config.annotation.web.builders.HttpSecurity;

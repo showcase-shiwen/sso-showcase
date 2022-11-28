@@ -1,4 +1,4 @@
-package org.showcase.sso.server.controller;
+package org.showcase.sso.jwtserver.controller;
 
 import cn.hutool.core.util.StrUtil;
 import io.jsonwebtoken.Jwts;

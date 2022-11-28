@@ -1,4 +1,4 @@
-package org.showcase.sso.server.pojo;
+package org.showcase.sso.jwtserver.pojo;
 
 import org.springframework.security.core.GrantedAuthority;
 import org.springframework.security.core.userdetails.UserDetails;

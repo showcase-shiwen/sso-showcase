@@ -1,4 +1,4 @@
-package org.showcase.sso.server;
+package org.showcase.sso.jwtserver;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

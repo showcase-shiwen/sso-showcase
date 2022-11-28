@@ -1,4 +1,4 @@
-package org.showcase.sso.server.config;
+package org.showcase.sso.jwtserver.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
