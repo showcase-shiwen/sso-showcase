@@ -1,4 +1,4 @@
-package com.jourwon.springcloud;
+package com.showcase.springcloud;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
