@@ -92,7 +92,25 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 // 配置申请的权限范围
                 .scopes("all")
                 // 配置grant_type,表示授权类型
-                .authorizedGrantTypes("authorization_code", "password", "refresh_token");
+                .authorizedGrantTypes("authorization_code", "password", "refresh_token").and()
+                // 配置client_id
+                .withClient("baidu")
+                // 配置client_secret
+                .secret(passwordEncoder.encode("admin123456"))
+                // 配置访问token的有效期
+                .accessTokenValiditySeconds(3600)
+                // 配置刷新token的有效期
+                .refreshTokenValiditySeconds(864000)
+                // 配置redirect_uri,用于授权成功后的跳转
+                // .redirectUris("http://www.baidu.com")
+                // 单点登录时配置
+                .redirectUris("https://www.baidu.com")
+                // 自动授权配置
+                .autoApprove(true)
+                // 配置申请的权限范围
+                .scopes("all")
+                // 配置grant_type,表示授权类型
+                .authorizedGrantTypes("authorization_code", "implicit", "password", "refresh_token","client_credentials");
     }
 
     @Override

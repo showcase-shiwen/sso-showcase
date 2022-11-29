@@ -53,7 +53,7 @@ public class AuthorizationServerConfig extends AuthorizationServerConfigurerAdap
                 // 配置刷新token的有效期
                 .refreshTokenValiditySeconds(864000)
                 // 配置redirect_uri,用于授权成功后的跳转
-                .redirectUris("http://www.baidu.com")
+                .redirectUris("https://www.baidu.com")
                 // 配置申请的权限范围
                 .scopes("all")
                 // 配置grant_type,表示授权类型
